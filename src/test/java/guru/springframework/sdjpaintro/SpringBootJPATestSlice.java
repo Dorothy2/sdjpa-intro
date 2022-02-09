@@ -20,6 +20,7 @@ import org.springframework.test.annotation.Commit;
 @ComponentScan(basePackages={"guru.springframework.sdjpaintro.bootstrap"})
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class SpringBootJPATestSlice {
+    // Uses H2 in mem database
 
     @Autowired
     BookRepository bookRepository;
