@@ -4,8 +4,10 @@ import guru.springframework.sdjpaintro.domain.AuthorUuid;
 import guru.springframework.sdjpaintro.domain.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.UUID;
+
 /**
  * Created by jt on 6/12/21.
  */
-public interface AuthorUuidRepository extends JpaRepository<AuthorUuid, Long> {
+public interface AuthorUuidRepository extends JpaRepository<AuthorUuid, UUID> {
 }
