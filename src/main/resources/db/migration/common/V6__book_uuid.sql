@@ -1,5 +1,3 @@
-drop table if exists book_uuid;
-
 create table book_uuid (
                       id binary(16) not null,
                       isbn varchar(255),
